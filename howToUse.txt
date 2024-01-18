@@ -1,0 +1,24 @@
+How to use:
+
+- Delete the 'database.db' file if you don't need the existing data
+
+- Run main.py
+
+- Add your product(s) in the 'Add a Product' tab
+    - If you made a mistake, you can delete the product in the 'Delete a Product' tab
+    - Or use the 'Delete a Product' tab if you don't need the price of a product anymore*
+
+- Go back to the 'Category' tab
+    - 'Get Prices' button will get the current product price(s) based on what category/product/shop you have selected
+    - 'Get Graph' button will create a graph based on your database and what category/product/shop you have selected
+
+If you need to add a new shop or category:
+
+- Adding a category is easy:
+    - Head to 'userInterface.py' and find the 'availableCategories' array and add your category
+
+- Adding a shop is not as easy:
+    - Head to 'helpers.py' and add the code for getting prices from your shop & name the function get_price_from_YourShopName
+    - Now head over to 'userInterface.py' and find the 'availableShops' array and add your shop, where the name must match YourShopName
+
+* - Deleting a product will wipe it from the database, which means the graph will not show it anymore.

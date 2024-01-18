@@ -1,0 +1,3 @@
+Jāplaiž fails ar nosaukumu 'programma'.
+
+Spējīgākiem lietotājiem iesaku izlasīt 'howToUse.txt'
